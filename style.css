@@ -6,15 +6,35 @@
     }
 
 body {
-    background: #fefae0;
+    /* background: #fefae0; */
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/* additional box around */
+.container { 
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background: #432818;
+
+    position: relative;
+    margin:5% auto;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
 
 /* creation of the board */
 .chess-board{
     width: 500px;
     height: 500px;
     margin: 7% auto;
-    border: 3px solid #432818;
+    border: 5px solid beige;
+
+    position: absolute;
+    left: 50px;
 } 
 
 .chess-board .row {
